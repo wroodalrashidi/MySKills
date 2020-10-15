@@ -1,0 +1,35 @@
+body{
+    background-color: rgba(0, 0, 0, 0.89);
+}
+
+.menu {
+display: flex;
+flex-direction: row;
+background-color: rgba(50, 108, 233, 0.644);
+box-shadow:3px 3px 15px rgba(206, 206, 206, 0.493);
+padding: 10px;
+height: 150px;
+width: 1100px;
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 70px;
+border-radius: 20px;
+}
+
+.imgs{
+width: 125px;
+height: 150px;
+border-radius: 10px;
+padding-right: 20px;
+}
+
+a {
+color: #0f0f0fea;
+text-decoration: none;
+}
+
+a:hover{
+color:#302e2e77; 
+text-decoration:none; 
+cursor:pointer;  
+}

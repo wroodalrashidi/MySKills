@@ -4,7 +4,7 @@ body{
 
 .menu {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
@@ -55,9 +55,45 @@ body{
 
 a:hover 
 {
-     color:#7c777785; 
+     color:#000000ce; 
      text-decoration:none; 
      cursor:pointer;  
 }
 
+/* Side bar */
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 80px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  #mySidenav a:hover {
+    left: 0;
+  }
+  
+  #twitter {
+    top: 20px;
+    background-color:  #555;
+  }
+  
+  #insta {
+    top: 80px;
+    background-color:  #555;
+  }
+  
+  #contact{
+    top: 140px;
+    background-color:  #555;
+  }
+  
+
+
+  
+ 
   
