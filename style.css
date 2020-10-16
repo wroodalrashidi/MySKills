@@ -1,6 +1,51 @@
 body{
     background-color: black;
 }
+/* nav bar */
+
+#navigation {
+  display: flex;
+  /* make the navbar alway stay on top */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 40px;
+  background-color: rgba(83, 80, 80, 0.432);
+}
+
+#navigation span {
+  flex-grow: 1;
+  height: 35px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#navigation span a {
+  display: inline-block;
+}
+
+/* when a link is clicked, it gets highlighted */
+.highlighted {
+  color: rgb(20, 20, 20);
+}
+
+/* make each section taller and give them different colors */
+#content {
+  margin-top: 100px;
+}
+
+#content div {
+  height: 100px;
+  /* align the text in the middle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  font-weight: bold;
+}
+
 
 .menu {
     display: flex;
@@ -71,6 +116,7 @@ a:hover
     font-size: 15px;
     color: white;
     border-radius: 0 5px 5px 0;
+    margin-top: 40px;
   }
   
   #mySidenav a:hover {
@@ -79,20 +125,46 @@ a:hover
   
   #twitter {
     top: 20px;
-    background-color:  #555;
+    background-color: rgba(83, 80, 80, 0.432);
   }
   
   #insta {
     top: 80px;
-    background-color:  #555;
+    background-color: rgba(83, 80, 80, 0.432);
   }
   
   #contact{
     top: 140px;
-    background-color:  #555;
+    background-color: rgba(83, 80, 80, 0.432);
   }
+  /* Search bar */
+  #searchInput {
+    height: 25px;
+    width: 150px;
+    border-radius: 10px; 
+    border: none;
+    background-color: rgba(83, 80, 80, 0.432);
+    text-align: center;
+  } 
+
+  input[type=text] { 
+     width: 150px; 
+     background-color: rgba(83, 80, 80, 0.432);
+     color: white;
+     height: 30px;
+    width: 150px;
+     
+  } 
   
 
+  li{
+color: white;
+list-style-type: none;
+
+} 
+
+
+ 
 
   
  
