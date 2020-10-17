@@ -6,6 +6,8 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="menu" id="lists"></div>
+    <!-- <a href="./addResume.html"> add resume</a> -->
     <style>
         .menu {
         display: flex;
@@ -29,40 +31,38 @@
     </style>
 
     <script>
+
     var tutoringResumes = [
         {
+            profile: '<img style="width: 100px; height: 120px; border-radius: 5px;" src="./profile-pics/english-teacher.jpg" >',
             name: "Ms. Noor",
-            degree: "Bachleroc",
-            experience: "taught for 10 years"
+            degree: "Bachelor",
+            experience: "Teaches high school students"
         },
     
         {
+            profile: '<img style="width: 100px; height: 120px; border-radius: 5px;" src="./profile-pics/math-teacher.png" >',
             name: "Ms. Mike",
-            degree: "Bachleroc",
+            degree: "Bachelor",
             experience: "taught for 10 years"
         },
     
         {
+            profile: '<img style="width: 100px; height: 120px; border-radius: 5px;" src="./profile-pics/ physics-teacher.jpg" >',
             name: "Ms. Henry",
-            degree: "Bachleroc",
-            experience: "taught for 10 years"
+            degree: "Bachelor",
+            experience: "5 years of teaching high school students"
         }
     ]
-
-    tutoringResumes.forEach(myFunction);
-
-function myFunction(item, index) {
-  for (var key in item) {
-    console.log(item[key])
-  }
+    for (let i=0; i < tutoringResumes.length ;i++)
+        document.getElementById("lists").innerHTML += tutoringResumes[i].profile + " Name: " + tutoringResumes[i].name + ", Degree: "+ tutoringResumes[i].degree + ", Experience: " + tutoringResumes[i].experience + "<br>";
   
-}
-document.getElementById("lists").innerHTML
+
 </script>
     
-    <a href="./addResume.html"> add resume</a>
-    <div class="menu" id="lists">
-hello
+
+        
+    
 
     </div>
 </body>
