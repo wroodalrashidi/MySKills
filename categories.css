@@ -25,12 +25,12 @@ padding-right: 20px;
 }
 
 a {
-color: #181717ea;
+color: #141414a9; ;
 text-decoration: none;
 }
 
 a:hover{
-color:#99949449; 
+color:#353333;
 text-decoration:none; 
 cursor:pointer;  
 }

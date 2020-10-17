@@ -6,9 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="menu" id="lists"></div>
-    <!-- <a href="./addResume.html"> add resume</a> -->
+    
     <style>
+        
+        body{
+            background-color: black;
+        }
+
         .menu {
         display: flex;
         flex-direction: row;
@@ -18,9 +22,10 @@
         align-content: center;
         background-color: rgba(50, 108, 233, 0.644);
         box-shadow:3px 3px 15px rgba(206, 206, 206, 0.493);
+        color: blanchedalmond;
         padding: 10px;
-        height: 100px;
-        width: 1000px;
+        height: 150px;
+        width: 90%;
         margin-top: 100px;
         margin-right: auto;
         margin-left: auto;
@@ -28,42 +33,15 @@
         border-radius: 20px;
     
       }
+      .divimg{
+          padding: 20%;
+      }
     </style>
-
-    <script>
-
-    var tutoringResumes = [
-        {
-            profile: '<img style="width: 100px; height: 120px; border-radius: 5px;" src="./profile-pics/english-teacher.jpg" >',
-            name: "Ms. Noor",
-            degree: "Bachelor",
-            experience: "Teaches high school students"
-        },
     
-        {
-            profile: '<img style="width: 100px; height: 120px; border-radius: 5px;" src="./profile-pics/math-teacher.png" >',
-            name: "Ms. Mike",
-            degree: "Bachelor",
-            experience: "taught for 10 years"
-        },
-    
-        {
-            profile: '<img style="width: 100px; height: 120px; border-radius: 5px;" src="./profile-pics/ physics-teacher.jpg" >',
-            name: "Ms. Henry",
-            degree: "Bachelor",
-            experience: "5 years of teaching high school students"
-        }
-    ]
-    for (let i=0; i < tutoringResumes.length ;i++)
-        document.getElementById("lists").innerHTML += tutoringResumes[i].profile + " Name: " + tutoringResumes[i].name + ", Degree: "+ tutoringResumes[i].degree + ", Experience: " + tutoringResumes[i].experience + "<br>";
-  
+    <div>
 
-</script>
+   
     
-
-        
-    
-
-    </div>
+<script src="./resume.js"></script>
 </body>
 </html>
