@@ -122,7 +122,10 @@ a:hover
   #mySidenav a:hover {
     left: 0;
   }
-  
+  #sign-up{
+    top: 140px;
+    background-color: rgba(83, 80, 80, 0.432);
+  }
   #twitter {
     top: 20px;
     background-color: rgba(83, 80, 80, 0.432);
@@ -137,6 +140,8 @@ a:hover
     top: 140px;
     background-color: rgba(83, 80, 80, 0.432);
   }
+ 
+
   /* Search bar */
   #searchInput {
     height: 25px;
