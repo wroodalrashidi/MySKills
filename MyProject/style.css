@@ -1,5 +1,5 @@
 body{
-    background-color: #30373a
+    background-color: #191d1f
 }
 /* nav bar */
 
@@ -56,8 +56,7 @@ body{
     justify-content: space-around;
     align-items: center;
     align-content: center;
-    /* background-color: rgba(50, 108, 233, 0.644); */
-    /* background-color: #3f6b7e; */
+    background-color: rgba(50, 108, 233, 0.644);
     box-shadow:3px 3px 15px rgba(206, 206, 206, 0.493);
     padding: 10px;
     height: 500px;
@@ -127,7 +126,7 @@ a:hover
   }
   #sign-up{
     top: 140px;
-    background-color: #56666d
+    background-color: rgba(83, 80, 80, 0.432);
   }
   #twitter {
     top: 20px;
@@ -167,12 +166,12 @@ list-style-type: none;
 } 
 
 .gradient1{
-  background: linear-gradient(154deg, #7582dc, #7f87ba, #4582b1, #b0cbe0);
+  background: linear-gradient(154deg, #434e99, #2e3da8, #183d5a, #9fb7c9);
   background-size: 800% 800%;
 
   -webkit-animation: gradient1 14s ease infinite;
   -moz-animation: gradient1 14s ease infinite;
-  animation: gradient1 14s ease infinite;
+  animation: gradient1 4s ease infinite;
 }
 
 @-webkit-keyframes gradient1 {
