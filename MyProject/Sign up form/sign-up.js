@@ -6,27 +6,27 @@ function validateForm() {
 
    
    
-    if (name == "") {
-      alert("First Name must be filled out");
-      return false;
+//     if (name == "") {
+//       alert("First Name must be filled out");
+//       return false;
     
-    } else if (last == "") {
-        alert("Last Name must be filled out");
-        return false;
+//     } else if (last == "") {
+//         alert("Last Name must be filled out");
+//         return false;
     
-    } else if (email == "") {
-        alert("Email must be filled out");
-        return false;
+//     } else if (email == "") {
+//         alert("Email must be filled out");
+//         return false;
     
-    } else if (password == "") {
-        alert("Password must be filled out");
-        return false;
+//     } else if (password == "") {
+//         alert("Password must be filled out");
+//         return false;
     
-    } else{
-        alert("Error");  
-    }
+//     } else{
+//         alert("Error");  
+//     }
 
-}
+// }
 
 function password() {
     var x = document.getElementById("pass-input");
