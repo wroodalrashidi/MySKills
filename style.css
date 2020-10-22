@@ -1,0 +1,198 @@
+body{
+    background-color: #191d1f
+}
+/* nav bar */
+
+#navigation {
+  display: flex;
+  /* make the navbar alway stay on top */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 40px;
+  background-color: rgba(83, 80, 80, 0.432);
+}
+
+#navigation span {
+  flex-grow: 1;
+  height: 35px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#navigation span a {
+  display: inline-block;
+  color: aliceblue;
+}
+
+/* when a link is clicked, it gets highlighted */
+.highlighted {
+  color: rgb(20, 20, 20);
+}
+
+/* make each section taller and give them different colors */
+#content {
+  margin-top: 100px;
+}
+
+#content div {
+  height: 100px;
+  /* align the text in the middle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background-color: rgba(50, 108, 233, 0.644);
+    box-shadow:3px 3px 15px rgba(206, 206, 206, 0.493);
+    padding: 10px;
+    height: 500px;
+    width: 1000px;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+    border-radius: 20px;
+
+  }
+
+  .menu2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background-color: rgba(38, 38, 39, 0.644);
+    box-shadow:3px 3px 15px rgba(206, 206, 206, 0.493);
+    padding: 10px;
+    height: 150px;
+    width: 150px;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+    border-radius: 20px;
+
+  }
+
+
+  .icons{
+      width: 90px;
+      height: 90px;
+  }
+
+  a {
+    color: #0d0e0ee1;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color:#706e6ece; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+/* Side bar */
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 80px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    margin-top: 40px;
+  }
+  
+  #mySidenav a:hover {
+    left: 0;
+  }
+  #sign-up{
+    top: 140px;
+    background-color: rgba(83, 80, 80, 0.432);
+  }
+  #twitter {
+    top: 20px;
+    background-color: rgba(83, 80, 80, 0.432);
+  }
+  
+  #insta {
+    top: 80px;
+    background-color: rgba(83, 80, 80, 0.432);
+  }
+  
+
+  /* Search bar */
+  #searchInput {
+    height: 25px;
+    width: 150px;
+    border-radius: 10px; 
+    border: none;
+    background-color: rgba(83, 80, 80, 0.432);
+    text-align: center;
+  } 
+
+  input[type=text] { 
+     width: 150px; 
+     background-color: rgba(83, 80, 80, 0.432);
+     color: white;
+     height: 30px;
+    width: 150px;
+     
+  } 
+  
+
+  li{
+color: rgb(238, 231, 231);
+list-style-type: none;
+
+} 
+
+.gradient1{
+  background: linear-gradient(154deg, #434e99, #2e3da8, #183d5a, #9fb7c9);
+  background-size: 800% 800%;
+
+  -webkit-animation: gradient1 14s ease infinite;
+  -moz-animation: gradient1 14s ease infinite;
+  animation: gradient1 4s ease infinite;
+}
+
+@-webkit-keyframes gradient1 {
+  0%{background-position:79% 0%}
+  50%{background-position:22% 100%}
+  100%{background-position:79% 0%}
+}
+@-moz-keyframes gradient1 {
+  0%{background-position:79% 0%}
+  50%{background-position:22% 100%}
+  100%{background-position:79% 0%}
+}
+@keyframes gradient1 {
+  0%{background-position:79% 0%}
+  50%{background-position:22% 100%}
+  100%{background-position:79% 0%}
+}
+
+
+ 
+
+  
+ 
+  
